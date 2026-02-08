@@ -24,14 +24,16 @@ from utils import (
     validate_confidence_threshold,
     get_image_files,
     format_error_message,
-    summarize_batch_results
+    summarize_batch_results,
+    export_to_csv,
+    export_to_csv_single
 )
 
 
 class NumberPlateExtractor:
     """Main application class for number plate extraction"""
     
-    def __init__(self, confidence: float = 80.0, pattern: str = None, region: str = None):
+    def __init__(self, confidence: float = 60.0, pattern: str = None, region: str = None):
         """
         Initialize the extractor
         
@@ -204,8 +206,8 @@ Examples:
     parser.add_argument(
         '--confidence',
         type=float,
-        default=80.0,
-        help='Confidence threshold for plate detection (0-100, default: 80)'
+        default=60.0,
+        help='Confidence threshold for plate detection (0-100, default: 60)'
     )
     parser.add_argument(
         '--pattern',
@@ -223,6 +225,22 @@ Examples:
         '--json',
         action='store_true',
         help='Output results as JSON'
+    )
+    parser.add_argument(
+        '--csv',
+        action='store_true',
+        help='Output results as CSV file'
+    )
+    parser.add_argument(
+        '--include-low-confidence',
+        action='store_true',
+        help='Include number plates with confidence between 30-80%'
+    )
+    parser.add_argument(
+        '--low-confidence-threshold',
+        type=float,
+        default=30.0,
+        help='Minimum confidence threshold for low confidence plates (default: 30)'
     )
     parser.add_argument(
         '--no-enhance',
@@ -251,16 +269,33 @@ Examples:
             # Single image mode
             result = extractor.process_single_image(args.image, enhance=not args.no_enhance)
             
-            if args.json:
+            if args.csv:
+                # CSV output
+                csv_output = args.output if args.output else 'results.csv'
+                export_to_csv_single(
+                    args.image,
+                    result.get('all_detected_text', []),
+                    result['plates'],
+                    csv_output
+                )
+                print(f"Results saved to {csv_output}")
+            elif args.json:
                 output = print_results_json(args.image, result['plates'], result.get('all_detected_text', []))
                 print(output)
+                if args.output:
+                    with open(args.output, 'w') as f:
+                        f.write(output)
+                    print(f"\nResults saved to {args.output}")
             else:
                 print_results_table(args.image, result['plates'])
-            
-            if args.output:
-                with open(args.output, 'w') as f:
-                    f.write(print_results_json(args.image, result['plates'], result.get('all_detected_text', [])))
-                print(f"\nResults saved to {args.output}")
+                if args.output:
+                    export_to_csv_single(
+                        args.image,
+                        result.get('all_detected_text', []),
+                        result['plates'],
+                        args.output
+                    )
+                    print(f"\nResults saved to {args.output}")
             
             # Exit with error if processing failed
             sys.exit(0 if result['success'] else 1)
@@ -286,6 +321,14 @@ Examples:
                 output = print_batch_results_json(results)
                 print("\nDetailed Results (JSON):")
                 print(output)
+                if args.output:
+                    with open(args.output, 'w') as f:
+                        f.write(output)
+                    print(f"\nResults saved to {args.output}")
+            elif args.csv:
+                csv_output = args.output if args.output else 'results.csv'
+                export_to_csv(results, csv_output)
+                print(f"\nResults saved to {csv_output}")
             else:
                 print("\nDetailed Results:")
                 for result in results:
@@ -294,11 +337,10 @@ Examples:
                         print_results_table(result['image'], result['plates'])
                     else:
                         print(f"  Error: {result['error']}")
-            
-            if args.output:
-                with open(args.output, 'w') as f:
-                    f.write(print_batch_results_json(results))
-                print(f"\nResults saved to {args.output}")
+                
+                if args.output:
+                    export_to_csv(results, args.output)
+                    print(f"\nResults saved to {args.output}")
             
             # Exit with error if any processing failed
             failed_count = sum(1 for r in results if not r['success'])

@@ -1,6 +1,7 @@
 """Utility functions for the Number Plate Extractor"""
 
 import json
+import csv
 from typing import List, Dict, Any
 from tabulate import tabulate
 
@@ -160,3 +161,89 @@ def summarize_batch_results(results: List[Dict]) -> Dict[str, Any]:
         'total_plates_detected': total_plates,
         'average_plates_per_image': total_plates / successful if successful > 0 else 0
     }
+
+
+def export_to_csv(results: List[Dict], output_file: str) -> None:
+    """
+    Export results to CSV file
+    
+    Args:
+        results: List of result dictionaries
+        output_file: Path to save CSV file
+    """
+    import os
+    
+    with open(output_file, 'w', newline='', encoding='utf-8') as csvfile:
+        fieldnames = ['Image Name', 'Raw Output (All Detected Words)', 'Number Plates', 'Confidence Score']
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+        
+        writer.writeheader()
+        
+        for result in results:
+            if not result.get('success'):
+                writer.writerow({
+                    'Image Name': result['image'],
+                    'Raw Output (All Detected Words)': f"Error: {result.get('error', 'Unknown error')}",
+                    'Number Plates': 'N/A',
+                    'Confidence Score': 'N/A'
+                })
+                continue
+            
+            # Get all detected text (raw output)
+            all_text = result.get('all_detected_text', [])
+            raw_output = ' | '.join([t['text'] for t in all_text])
+            
+            # Get plates
+            plates = result.get('plates', [])
+            
+            if plates:
+                for plate in plates:
+                    writer.writerow({
+                        'Image Name': result['image'],
+                        'Raw Output (All Detected Words)': raw_output,
+                        'Number Plates': plate['text'],
+                        'Confidence Score': f"{plate['confidence']}%"
+                    })
+            else:
+                writer.writerow({
+                    'Image Name': result['image'],
+                    'Raw Output (All Detected Words)': raw_output,
+                    'Number Plates': 'None detected',
+                    'Confidence Score': 'N/A'
+                })
+
+
+def export_to_csv_single(image_path: str, all_text: List[Dict], plates: List[Dict], output_file: str) -> None:
+    """
+    Export single image result to CSV file
+    
+    Args:
+        image_path: Path to the image
+        all_text: All detected text blocks
+        plates: Detected number plates
+        output_file: Path to save CSV file
+    """
+    with open(output_file, 'w', newline='', encoding='utf-8') as csvfile:
+        fieldnames = ['Image Name', 'Raw Output (All Detected Words)', 'Number Plates', 'Confidence Score']
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+        
+        writer.writeheader()
+        
+        # Get all detected text (raw output)
+        raw_output = ' | '.join([t['text'] for t in all_text])
+        
+        if plates:
+            for plate in plates:
+                writer.writerow({
+                    'Image Name': image_path,
+                    'Raw Output (All Detected Words)': raw_output,
+                    'Number Plates': plate['text'],
+                    'Confidence Score': f"{plate['confidence']}%"
+                })
+        else:
+            writer.writerow({
+                'Image Name': image_path,
+                'Raw Output (All Detected Words)': raw_output,
+                'Number Plates': 'None detected',
+                'Confidence Score': 'N/A'
+            })
