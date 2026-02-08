@@ -1,0 +1,895 @@
+{
+  "total_images": 125,
+  "results": [
+    {
+      "image": "vehicle\\444R104022602036_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602038_vehicle.jpg",
+      "success": true,
+      "plates": [
+        {
+          "text": "TS12 UD 3371",
+          "confidence": 99.88
+        }
+      ],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602039_vehicle.jpg",
+      "success": true,
+      "plates": [
+        {
+          "text": "TS08FW3131",
+          "confidence": 95.17
+        }
+      ],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602040_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602041_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602042_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602043_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602045_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602047_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602048_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602049_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602051_vehicle.jpg",
+      "success": true,
+      "plates": [
+        {
+          "text": "TS10EY4558",
+          "confidence": 81.83
+        }
+      ],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602052_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602053_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602054_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602055_vehicle.jpg",
+      "success": true,
+      "plates": [
+        {
+          "text": "TS11EU7963",
+          "confidence": 98.41
+        }
+      ],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602057_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602058_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602059_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602060_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602062_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602063_vehicle.jpg",
+      "success": true,
+      "plates": [
+        {
+          "text": "TS08EA 8099",
+          "confidence": 96.35
+        }
+      ],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602064_vehicle.jpg",
+      "success": true,
+      "plates": [
+        {
+          "text": "TS08JZ6328",
+          "confidence": 91.97
+        }
+      ],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602065_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602066_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602069_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602070_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602071_vehicle.jpg",
+      "success": true,
+      "plates": [
+        {
+          "text": "TS11UB1136",
+          "confidence": 95.33
+        }
+      ],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602072_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602073_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602076_vehicle.jpg",
+      "success": true,
+      "plates": [
+        {
+          "text": "TS 12 UD 2638",
+          "confidence": 97.71
+        }
+      ],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602077_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602078_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602079_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602080_vehicle.jpg",
+      "success": true,
+      "plates": [
+        {
+          "text": "TN52 AB1029",
+          "confidence": 99.02
+        }
+      ],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602081_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602082_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602083_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602084_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602085_vehicle.jpg",
+      "success": true,
+      "plates": [
+        {
+          "text": "TS07GA6059",
+          "confidence": 97.48
+        }
+      ],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602086_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602087_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602088_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602089_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602090_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602092_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602094_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602095_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602096_vehicle.jpg",
+      "success": true,
+      "plates": [
+        {
+          "text": "AP05 CH 2525",
+          "confidence": 98.97
+        }
+      ],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602097_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602098_vehicle.jpg",
+      "success": true,
+      "plates": [
+        {
+          "text": "TS15FD0009",
+          "confidence": 98.58
+        }
+      ],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602099_vehicle.jpg",
+      "success": true,
+      "plates": [
+        {
+          "text": "TS08GG3728",
+          "confidence": 96.53
+        }
+      ],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602100_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602101_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602102_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602103_vehicle.jpg",
+      "success": true,
+      "plates": [
+        {
+          "text": "TS08HX 1678",
+          "confidence": 91.66
+        }
+      ],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602104_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602105_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602106_vehicle.jpg",
+      "success": true,
+      "plates": [
+        {
+          "text": "TS07KA4678",
+          "confidence": 94.43
+        }
+      ],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602107_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602108_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602109_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602110_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602111_vehicle.jpg",
+      "success": true,
+      "plates": [
+        {
+          "text": "TS07 JA4599",
+          "confidence": 96.82
+        }
+      ],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602113_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602114_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602115_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602116_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602118_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602119_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602120_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602121_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602122_vehicle.jpg",
+      "success": true,
+      "plates": [
+        {
+          "text": "TS07JK8643",
+          "confidence": 90.62
+        }
+      ],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602123_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602124_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602125_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602126_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602127_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602128_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602129_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602130_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602131_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602133_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602134_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602135_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602136_vehicle.jpg",
+      "success": true,
+      "plates": [
+        {
+          "text": "AP36 AL 3887",
+          "confidence": 96.42
+        }
+      ],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602137_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602138_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602140_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602141_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602142_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602143_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602144_vehicle.jpg",
+      "success": true,
+      "plates": [
+        {
+          "text": "AP11 AP 8226",
+          "confidence": 99.49
+        }
+      ],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602145_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602146_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602147_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602149_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602151_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602152_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602154_vehicle.jpg",
+      "success": true,
+      "plates": [
+        {
+          "text": "TS08JL4114",
+          "confidence": 89.52
+        }
+      ],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602155_vehicle.jpg",
+      "success": true,
+      "plates": [
+        {
+          "text": "TS10FA4680",
+          "confidence": 96.5
+        }
+      ],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602156_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602157_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602158_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602159_vehicle.jpg",
+      "success": true,
+      "plates": [
+        {
+          "text": "TS08 KA 0003",
+          "confidence": 84.48
+        }
+      ],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602160_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602161_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602162_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602163_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602164_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602166_vehicle.jpg",
+      "success": true,
+      "plates": [
+        {
+          "text": "TS13 FB 1534",
+          "confidence": 99.89
+        }
+      ],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602167_vehicle.jpg",
+      "success": true,
+      "plates": [
+        {
+          "text": "AP29 BP 2496",
+          "confidence": 99.71
+        }
+      ],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602168_vehicle.jpg",
+      "success": true,
+      "plates": [
+        {
+          "text": "TS16EA3336",
+          "confidence": 99.49
+        }
+      ],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602169_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602170_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602171_vehicle.jpg",
+      "success": true,
+      "plates": [
+        {
+          "text": "TS09FE7661",
+          "confidence": 93.24
+        }
+      ],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602172_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602174_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602175_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602176_vehicle.jpg",
+      "success": true,
+      "plates": [
+        {
+          "text": "TS07HW 1099",
+          "confidence": 87.83
+        }
+      ],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602177_vehicle.jpg",
+      "success": true,
+      "plates": [
+        {
+          "text": "TS08UJ0793",
+          "confidence": 95.55
+        }
+      ],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602178_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602180_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602181_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    },
+    {
+      "image": "vehicle\\444R104022602182_vehicle.jpg",
+      "success": true,
+      "plates": [],
+      "error": null
+    }
+  ]
+}
